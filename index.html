@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DoorDash Smart Campaign</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: #f5f5f5;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #111111;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 1000px;
+      background: #ffffff;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.12);
+    }
+
+    .header {
+      background: #eb1700;
+      color: #ffffff;
+      padding: 22px 28px;
+      font-size: 22px;
+      font-weight: 800;
+    }
+
+    .video {
+      width: 100%;
+      background: #111111;
+    }
+
+    video {
+      width: 100%;
+      height: auto;
+      display: block;
+      background: #111111;
+    }
+
+    .content {
+      padding: 30px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0 0 12px;
+      font-size: clamp(28px, 4vw, 42px);
+      line-height: 1.1;
+    }
+
+    p {
+      margin: 0 auto;
+      max-width: 700px;
+      color: #555555;
+      font-size: 17px;
+      line-height: 1.6;
+    }
+
+    .cta {
+      display: inline-block;
+      margin-top: 24px;
+      padding: 14px 24px;
+      background: #eb1700;
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: 800;
+      border-radius: 999px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="header">
+      DOORDASH
+    </div>
+
+    <div class="video">
+      <video
+        autoplay
+        muted
+        playsinline
+        controls
+        poster="smart-campaign-poster.jpg"
+        preload="auto"
+      >
+        <source src="smart-campaign.mp4" type="video/mp4">
+      </video>
+    </div>
+
+    <div class="content">
+      <h1>Smart Campaign</h1>
+
+      <p>
+        Help your restaurant reach more customers and grow your sales with
+        Smart Campaign.
+      </p>
+
+      <a
+        class="cta"
+        href="https://www.doordash.com/merchant/marketing/"
+        target="_blank"
+      >
+        OPEN MERCHANT PORTAL
+      </a>
+    </div>
+
+  </div>
+
+</body>
+</html>
